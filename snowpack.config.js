@@ -4,14 +4,16 @@ module.exports = {
     public: "/",
     src: "/dist",
   },
-  plugins: [],
+  plugins: ["@snowpack/plugin-react-refresh"],
   routes: [],
   optimize: {},
   packageOptions: {
     source: "remote",
+    cache: ".snowpack",
   },
   devOptions: {},
   buildOptions: {
     baseUrl: "/react-snowpack-test-2",
+    metaUrlPath: "/dist",
   },
 };
