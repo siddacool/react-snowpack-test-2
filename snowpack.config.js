@@ -27,5 +27,6 @@ module.exports = {
   },
   buildOptions: {
     /* ... */
+    baseUrl: "/react-snowpack-test-2",
   },
 };
