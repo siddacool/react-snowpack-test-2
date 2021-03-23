@@ -1,5 +1,5 @@
-import React from "https://cdn.skypack.dev/react";
-import ReactDOM from "https://cdn.skypack.dev/react-dom";
+import React from "https://cdn.skypack.dev/react@17.0.2";
+import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.2";
 import App from "./App.jsx";
 
 ReactDOM.render(
@@ -8,3 +8,9 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+// Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
+if (import.meta.hot) {
+  import.meta.hot.accept();
+}

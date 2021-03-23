@@ -1,4 +1,7 @@
-import React, { useState, useEffect } from "https://cdn.skypack.dev/react";
+import React, {
+  useState,
+  useEffect,
+} from "https://cdn.skypack.dev/react@17.0.2";
 
 function App() {
   // Create the count state.
